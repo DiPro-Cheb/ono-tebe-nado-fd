@@ -58,7 +58,8 @@
   position: relative;
   min-height: 757px;
   background: url(../images/cover.jpg) no-repeat center/cover;
-  padding: 165px 50px 50px;
+  padding: 50px 50px 50px;
+  box-sizing: border-box;
 }
 
 .overlay {
@@ -69,17 +70,18 @@
 
 .cover__title {
   position: relative;
+  top: 115px;
   z-index: 1;
   color: #fff;
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 30px;
 }
 
 .aligned-text {
+  position: relative;
   display: block;
-  line-height: 114px;
+  line-height: 115px;
   margin-bottom: 20px;
 }
 
@@ -93,6 +95,8 @@
 
 .aligned-text_right {
   text-align: right;
+  margin-right: -30px; /* Компенсируем padding-right контейнера .cover */
+  padding-right: 0;
 }
 
 .letter-spacing-extended {
@@ -104,8 +108,9 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  top: 100px;
   z-index: 1;
-  padding-top: 135px;
+  padding-top: 106px;
 }
 
 .cover__description-text {
@@ -116,7 +121,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 25px;
+  word-spacing: 19.8px;
   text-align: center;
 }
 
@@ -300,3 +305,11 @@
 .footer__social-icon {
   width: 48px;
 }
+
+
+
+
+
+
+
+
