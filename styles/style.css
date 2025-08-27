@@ -91,11 +91,12 @@
 
 .aligned-text_center {
   text-align: center;
+  margin-right: -20px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-right: -30px; /* Компенсируем padding-right контейнера .cover */
+  margin-right: -30px;
   padding-right: 0;
 }
 
@@ -114,6 +115,7 @@
 }
 
 .cover__description-text {
+  display: block;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -126,9 +128,11 @@
 }
 
 .bet-button {
+  min-height: 51px;
+  min-width: 256px;
   font-size: 18px;
   font-weight: 400;
-  padding: 12px 19px;
+  padding: 12px 31px 11px;
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
@@ -136,7 +140,7 @@
 }
 
 .lots {
-  min-height: 723px;
+  
   margin: 180px 24px 120px;
 }
 
@@ -159,7 +163,7 @@
 
 .lots__card-list-item {
   flex: 1 0 334px;
-  min-height: 563px;
+  min-height: 596px;
 }
 
 .card-link {
