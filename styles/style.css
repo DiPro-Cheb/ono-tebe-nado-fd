@@ -141,7 +141,7 @@
 
 .lots {
   
-  margin: 180px 24px 120px;
+  margin: 180px 24px 0;
 }
 
 .lots__heading {
@@ -232,6 +232,9 @@
 }
 
 .about__column {
+  display: grid;
+  align-items: start;
+  justify-content: center;
   margin-bottom: 0;
 }
 
