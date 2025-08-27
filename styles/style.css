@@ -91,7 +91,7 @@
 
 .aligned-text_center {
   text-align: center;
-  margin-right: -20px;
+  margin-right: -35px;
 }
 
 .aligned-text_right {
@@ -111,13 +111,12 @@
   position: relative;
   top: 100px;
   z-index: 1;
-  padding-top: 106px;
+  padding-top: 100px;
 }
 
 .cover__description-text {
   display: block;
   color: #fff;
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
@@ -130,8 +129,8 @@
 .bet-button {
   min-height: 51px;
   min-width: 256px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   padding: 12px 31px 11px;
   background: transparent;
   border: 1px solid #fff;
@@ -270,7 +269,7 @@
 }
 
 .footer {
-  min-height: 193px;
+  min-height: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 50px 82px;
